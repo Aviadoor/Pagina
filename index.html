@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e3a96fd4f.js" crossorigin="anonymous"></script>
+
+    <title>Paginas_Web</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <i class="fa-solid fa-heart"></i>
+            <nav class="menu">
+                <ul class="menu-lista">
+                    <a class="list" href="#">Inicio</a>
+                    <a class="list" href="#acerca-de-mi">Acerca de mi</a>
+                    <a class="list" href="#trabajos">Trabajos</a>
+                    <a class="list" href="#">Servicios</a>
+                    <a class="list" href="#contacto">Contacto</a>
+                </ul>
+            </nav>
+            <i class="open fa-solid fa-bars"></i>
+            <i class="close fa-regular fa-x"></i>
+        </header>
+
+        <main class="contenido-principal">
+
+            <section class="acerca-de-mi" id="acerca-de-mi">
+                <h1>Acerca de mi</h1>
+                <p>
+                    Nací en un pequeño pueblo de los Andes peruanos, con el cielo como mi único límite. Desde niño, mis ojos se perdían en las estrellas, y un sueño inmenso comenzó a germinar en mi corazón: quería ser astronauta. Aunque las limitaciones económicas eran una realidad en mi familia, encontré consuelo y motivación en los libros de astronomía.
+                    <br>
+                    Con pasión y determinación, me sumergí en los estudios de ciencias. La oportunidad de mi vida se presentó cuando una organización espacial internacional lanzó un programa de becas. Aplicar fue un salto al vacío, pero gané la beca, abriendo así la puerta a mis sueños y a una nueva vida.
+                    <br>
+                    Mi camino en ingeniería aeroespacial fue desafiante, enfrenté obstáculos culturales y la lejanía de mi hogar, pero cada desafío fortaleció mi resolución. Finalmente, me seleccionaron para una misión espacial, convirtiéndome en el primer astronauta peruano.
+                    <br>
+                    Desde la Estación Espacial Internacional, contemplé la Tierra con ojos llenos de asombro y gratitud. Compartí mi historia con los jóvenes peruanos, instándolos a perseguir lo imposible. De regreso a casa, me convertí en un símbolo de esperanza, estableciendo programas educativos para inspirar a los niños a explorar las ciencias y seguir sus propias aspiraciones.
+                </p>
+                <div class="imagen-personal"></div>
+            </section>
+
+            <div class="imagen-paisaje"></div>
+
+            <section class="trabajos" id="trabajos">
+
+                <article class="pagina_web">
+                    <div class="IT pagina_web_imagen"></div>
+
+                    <div class="descripcion">
+                        <h2>Diseño de Pagina Web</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae, culpa a nihil numquam odit reiciendis labore pariatur dignissimos obcaecati perspiciatis, saepe consequuntur placeat deleniti itaque, quae inventore aut dolore.</p>
+                    </div>
+
+                </article>
+
+                <article class="setup">
+                    <div class="IT setup_imagen"></div>
+
+                    <div class="descripcion">
+                        <h2>Set-Up</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequatur maiores assumenda possimus soluta deserunt tempore, porro hic quae. Voluptate debitis mollitia neque aperiam earum fugit tenetur et voluptatibus at!</p>
+                    </div>
+                </article>
+
+                <article class="creacion_videojuego">
+                    <div class="IT creacion_videojuego_imagen"></div>
+                    
+                    <div class="descripcion">
+                        <h2>Sapo Player</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae et, placeat, consectetur a molestias deleniti voluptas rerum aliquam quam maxime consequuntur inventore. Modi maiores, quaerat nobis repellendus totam laborum!</p>
+                    </div>
+                </article>
+
+            </section>
+        </main>
+
+        <section class="contacto" id="contacto">
+            <div class="titulo">
+                <h1>Contacto</h1>
+                <span>¡Esperamos tu consulta!</span>
+            </div>
+    
+            <form action="" method="get" id="formularioContacto">
+    
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="Nombre">
+                    <span id="alertName"></span>
+                </div>
+    
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="Email">
+                    <span id="alertEmail"></span>   
+                </div>
+    
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <span class="alertMensaje"></span>
+                </div>
+    
+                <button type="submit" id="botonContacto">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="pie-pagina" id="footer">
+            <h6>Contacto</h6>
+            <ul>
+                <li>Instagram</li>
+                <li>facebook</li>
+                <li>Whatsapp</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
